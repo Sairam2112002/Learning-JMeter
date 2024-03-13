@@ -1,0 +1,1484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazedemo.com:443" rc="" rm="An established connection was aborted by the software in your host machine&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="2674" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazedemo.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="incoming.telemetry.mozilla.org:443" rc="" rm="An established connection was aborted by the software in your host machine&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="2674" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="incoming.telemetry.mozilla.org:443" rc="" rm="An established connection was aborted by the software in your host machine&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="2674" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="mitmdetection.services.mozilla.com:443" rc="" rm="An established connection was aborted by the software in your host machine&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="2674" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT mitmdetection.services.mozilla.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="incoming.telemetry.mozilla.org:443" rc="" rm="An established connection was aborted by the software in your host machine&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="2674" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="1390" it="0" lt="1386" ct="381" ts="1709704656983" s="true" lb="T01_launchBlazedemoApplication-4" rc="200" rm="OK" tn="" dt="text" de="UTF-8" by="2368" sc="1" ec="0" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+x-powered-by: PHP/7.4.30
+cache-control: no-cache, private
+vary: Accept-Encoding
+content-type: text/html; charset=UTF-8
+X-Cloud-Trace-Context: 63821d6884c00c9dbbc9e21570823895
+Date: Wed, 06 Mar 2024 05:57:36 GMT
+Server: Google Frontend
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.5
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Host: blazedemo.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt; BlazeDemo&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;BlazeMeter demo app&quot;&gt;
+    &lt;meta name=&quot;sage&quot; content=&quot;flights app&quot;&gt;
+
+    &lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap-table.js&quot;&gt;&lt;/script&gt;
+    &lt;link href=&quot;/assets/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;link href=&quot;/assets/bootstrap-table.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+        body {
+            background: #f5f5f5);
+        }
+
+        .hero-unit {
+            background-color: #fff;
+        }
+
+        .center {
+            display: block;
+            margin: 0 auto;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+        &lt;div class=&quot;navbar navbar-inverse&quot;&gt;
+        &lt;div class=&quot;navbar-inner&quot;&gt;
+            &lt;div class=&quot;container&quot;&gt;
+                &lt;a class=&quot;btn btn-navbar&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.nav-collapse&quot;&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                &lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;index.php&quot;&gt;Travel The World&lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;home&quot;&gt;home&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;jumbotron&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;h1&gt;Welcome to the Simple Travel Agency!&lt;/h1&gt;
+            &lt;p&gt;The is a sample site you can test with BlazeMeter! &lt;/p&gt;
+            &lt;p&gt;Check out our &lt;a href=&quot;vacation.html&quot;&gt;destination of the week! The Beach!&lt;/a&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;div class=&quot;container&quot;&gt;
+        &lt;h2&gt;Choose your departure city:&lt;/h2&gt;
+    &lt;form action=&quot;reserve.php&quot; method=&quot;post&quot;&gt;
+        &lt;select name=&quot;fromPort&quot; class=&quot;form-inline&quot;&gt;
+            &lt;option value=&quot;Paris&quot;&gt;Paris&lt;/option&gt;
+            &lt;option value=&quot;Philadelphia&quot;&gt;Philadelphia&lt;/option&gt;
+            &lt;option value=&quot;Boston&quot;&gt;Boston&lt;/option&gt;
+            &lt;option value=&quot;Portland&quot;&gt;Portland&lt;/option&gt;
+            &lt;option value=&quot;San Diego&quot;&gt;San Diego&lt;/option&gt;
+            &lt;option value=&quot;Mexico City&quot;&gt;Mexico City&lt;/option&gt;
+            &lt;option value=&quot;São Paolo&quot;&gt;São Paolo&lt;/option&gt;
+        &lt;/select&gt;
+        &lt;p&gt;
+        &lt;h2&gt;Choose your destination city:&lt;/h2&gt;
+        &lt;select name=&quot;toPort&quot; class=&quot;form-inline&quot;&gt;
+            &lt;option value=&quot;Buenos Aires&quot;&gt;Buenos Aires&lt;/option&gt;
+            &lt;option value=&quot;Rome&quot;&gt;Rome&lt;/option&gt;
+            &lt;option value=&quot;London&quot;&gt;London&lt;/option&gt;
+            &lt;option value=&quot;Berlin&quot;&gt;Berlin&lt;/option&gt;
+            &lt;option value=&quot;New York&quot;&gt;New York&lt;/option&gt;
+            &lt;option value=&quot;Dublin&quot;&gt;Dublin&lt;/option&gt;
+            &lt;option value=&quot;Cairo&quot;&gt;Cairo&lt;/option&gt;
+        &lt;/select&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;input type=&quot;submit&quot; class=&quot;btn btn-primary&quot; value=&quot;Find Flights&quot;/&gt;
+        &lt;/div&gt;
+    &lt;/form&gt;
+&lt;/div&gt;
+
+&lt;!-- ProdPerfect script: last thing before the body closes --&gt;
+&lt;script&gt;
+!function(name,path,ctx){
+    var latest,prev=name!==&apos;Keen&apos;&amp;&amp;window.Keen?window.Keen:false;ctx[name]=ctx[name]||{ready:function(fn){var h=document.getElementsByTagName(&apos;head&apos;)[0],s=document.createElement(&apos;script&apos;),w=window,loaded;s.onload=s.onreadystatechange=function(){if((s.readyState&amp;&amp;!(/^c|loade/.test(s.readyState)))||loaded){return}s.onload=s.onreadystatechange=null;loaded=1;latest=w.Keen;if(prev){w.Keen=prev}else{try{delete w.Keen}catch(e){w.Keen=void 0}}ctx[name]=latest;ctx[name].ready(fn)};s.async=1;s.src=path;h.appendChild(s)}}
+  }(&apos;ProdPerfectKeen&apos;,&apos;https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js&apos;,this);
+
+  ProdPerfectKeen.ready(function () {
+    var client = new ProdPerfectKeen({
+      projectId: &quot;lXviifSA1NskA4wsG9N6WoWg&quot;,
+      writeKey: &quot;8RWMCGFX4X0IRY1GHWDM3HM5WDSJF9LP62BSDULOL3XK7WAIFGDB7EU526O1A0UPLH1S8SJP320LUXJKCHLJX1822GU1KFE80CNW6PXVZ83IOO6LJ731EN164IFVUFMC8DOGYP2MXHN47WGVB192F2PTQRQXCF95OJWAKGOH9S69DZAI5OPJW8QSPDE6LQQ9&quot;,
+      requestType: &quot;beacon&quot;,
+      host: &quot;blazemeter.datapipe.prodperfect.com/v1&quot;,
+    });
+    client.extendEvents({
+      visitor: {
+        user_id: null,
+      },
+    });
+
+    var options = {
+      ignoreDisabledFormFields: false,
+      recordClicks: true,
+      recordFormSubmits: true,
+      recordInputChanges: true,
+      recordPageViews: true,
+      recordPageUnloads: true,
+      recordScrollState: true,
+    };
+    client.initAutoTracking(options);
+  });
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">keen={%22uuid%22:%22fba656d0-b360-454a-86c7-c44896c44a7c%22%2C%22initialReferrer%22:%22https://www.google.com/%22}; prodperfect_session={%22session_uuid%22:%22377f45ac-8190-4cf6-aee9-a91763e2c876%22}</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://blazedemo.com/</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="885" it="0" lt="884" ct="346" ts="1709704695317" s="true" lb="T01_findFlights-21" rc="200" rm="OK" tn="" dt="text" de="UTF-8" by="2460" sc="1" ec="0" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+x-powered-by: PHP/7.4.30
+cache-control: no-cache, private
+vary: Accept-Encoding
+content-type: text/html; charset=UTF-8
+X-Cloud-Trace-Context: 76141ea3cb624af325514ba89c87e9a7
+Date: Wed, 06 Mar 2024 05:58:14 GMT
+Server: Google Frontend
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Referer: https://blazedemo.com/
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.5
+Origin: https://blazedemo.com
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Host: blazedemo.com
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+Sec-Fetch-Dest: document
+Content-Length: 30
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;BlazeDemo - reserve&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;BlazeMeter demo app&quot;&gt;
+    &lt;meta name=&quot;sage&quot; content=&quot;flights app&quot;&gt;
+
+    &lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap-table.js&quot;&gt;&lt;/script&gt;
+    &lt;link href=&quot;/assets/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;link href=&quot;/assets/bootstrap-table.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+        body {
+            background: #f5f5f5);
+        }
+
+        .hero-unit {
+            background-color: #fff;
+        }
+
+        .center {
+            display: block;
+            margin: 0 auto;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class=&quot;navbar navbar-inverse&quot;&gt;
+        &lt;div class=&quot;navbar-inner&quot;&gt;
+            &lt;div class=&quot;container&quot;&gt;
+                &lt;a class=&quot;btn btn-navbar&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.nav-collapse&quot;&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                &lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;index.php&quot;&gt;Travel The World&lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;home&quot;&gt;home&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;div class=&quot;container&quot;&gt;
+    
+        &lt;h3&gt;Flights from Paris to New York: &lt;/h3&gt;
+    &lt;table class=&quot;table&quot;&gt;
+        &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Choose&lt;/th&gt;
+            &lt;th&gt;Flight #&lt;/th&gt;
+            &lt;th&gt;Airline&lt;/th&gt;
+            &lt;th&gt;Departs: Paris&lt;/th&gt;
+            &lt;th&gt;Arrives: New York&lt;/th&gt;
+            &lt;th&gt;Price&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;form name=&quot;VA43&quot; method=&quot;post&quot; action=&quot;purchase.php&quot;&gt;
+                &lt;td&gt;&lt;input type=&quot;submit&quot; class=&quot;btn btn-small&quot; value=&quot;Choose This Flight&quot;&gt;&lt;/td&gt;
+                &lt;td&gt;43&lt;/td&gt;
+                &lt;td&gt;Virgin America&lt;/td&gt;
+                &lt;td&gt;1:43 AM&lt;/td&gt;
+                &lt;td&gt;9:45 PM&lt;/td&gt;
+                &lt;td&gt;$472.56&lt;/td&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;43&quot; name=&quot;flight&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;472.56&quot; name=&quot;price&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;Virgin America&quot; name=&quot;airline&quot;&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;fromPort&quot; value=&quot;Paris&quot;/&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;toPort&quot; value=&quot;New York&quot;/&gt;
+            &lt;/form&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;form name=&quot;UA234&quot; method=&quot;post&quot; action=&quot;purchase.php&quot;&gt;
+                &lt;td&gt;&lt;input type=&quot;submit&quot; class=&quot;btn btn-small&quot; value=&quot;Choose This Flight&quot;&gt;&lt;/td&gt;
+                &lt;td&gt;234&lt;/td&gt;
+                &lt;td&gt;United Airlines&lt;/td&gt;
+                &lt;td&gt;7:43 AM&lt;/td&gt;
+                &lt;td&gt;10:45 PM&lt;/td&gt;
+                &lt;td&gt;$432.98&lt;/td&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;234&quot; name=&quot;flight&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;432.98&quot; name=&quot;price&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;United Airlines&quot; name=&quot;airline&quot;&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;fromPort&quot; value=&quot;Paris&quot;/&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;toPort&quot; value=&quot;New York&quot;/&gt;
+            &lt;/form&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;form name=&quot;AL969&quot; method=&quot;post&quot; action=&quot;purchase.php&quot;&gt;
+                &lt;td&gt;&lt;input type=&quot;submit&quot; class=&quot;btn btn-small&quot; value=&quot;Choose This Flight&quot;&gt;&lt;/td&gt;
+                &lt;td&gt;9696&lt;/td&gt;
+                &lt;td&gt;Aer Lingus&lt;/td&gt;
+                &lt;td&gt;5:27 AM&lt;/td&gt;
+                &lt;td&gt;8:22 PM&lt;/td&gt;
+                &lt;td&gt;$200.98&lt;/td&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;9696&quot; name=&quot;flight&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;200.98&quot; name=&quot;price&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;Aer Lingus&quot; name=&quot;airline&quot;&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;fromPort&quot; value=&quot;Paris&quot;/&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;toPort&quot; value=&quot;New York&quot;/&gt;
+            &lt;/form&gt;
+
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;form name=&quot;VA12&quot; method=&quot;post&quot; action=&quot;purchase.php&quot;&gt;
+                &lt;td&gt;&lt;input type=&quot;submit&quot; class=&quot;btn btn-small&quot; value=&quot;Choose This Flight&quot;&gt;&lt;/td&gt;
+                &lt;td&gt;12&lt;/td&gt;
+                &lt;td&gt;Virgin America&lt;/td&gt;
+                &lt;td&gt;11:23 AM&lt;/td&gt;
+                &lt;td&gt;1:45 PM&lt;/td&gt;
+                &lt;td&gt;$765.32&lt;/td&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;12&quot; name=&quot;flight&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;765.32&quot; name=&quot;price&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;Virgin America&quot; name=&quot;airline&quot;&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;fromPort&quot; value=&quot;Paris&quot;/&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;toPort&quot; value=&quot;New York&quot;/&gt;
+            &lt;/form&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;form name=&quot;L4346&quot; method=&quot;post&quot; action=&quot;purchase.php&quot;&gt;
+                &lt;td&gt;&lt;input type=&quot;submit&quot; class=&quot;btn btn-small&quot; value=&quot;Choose This Flight&quot;&gt;&lt;/td&gt;
+                &lt;td&gt;4346&lt;/td&gt;
+                &lt;td&gt;Lufthansa&lt;/td&gt;
+                &lt;td&gt;1:45 AM&lt;/td&gt;
+                &lt;td&gt;8:34 PM&lt;/td&gt;
+                &lt;td&gt;$233.98&lt;/td&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;4346&quot; name=&quot;flight&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;233.98&quot; name=&quot;price&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;Lufthansa&quot; name=&quot;airline&quot;&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;fromPort&quot; value=&quot;Paris&quot;/&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;toPort&quot; value=&quot;New York&quot;/&gt;
+            &lt;/form&gt;
+        &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;fromPort&quot; value=&quot;Paris&quot;/&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;toPort&quot; value=&quot;New York&quot;/&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- ProdPerfect script: last thing before the body closes --&gt;
+&lt;script&gt;
+!function(name,path,ctx){
+    var latest,prev=name!==&apos;Keen&apos;&amp;&amp;window.Keen?window.Keen:false;ctx[name]=ctx[name]||{ready:function(fn){var h=document.getElementsByTagName(&apos;head&apos;)[0],s=document.createElement(&apos;script&apos;),w=window,loaded;s.onload=s.onreadystatechange=function(){if((s.readyState&amp;&amp;!(/^c|loade/.test(s.readyState)))||loaded){return}s.onload=s.onreadystatechange=null;loaded=1;latest=w.Keen;if(prev){w.Keen=prev}else{try{delete w.Keen}catch(e){w.Keen=void 0}}ctx[name]=latest;ctx[name].ready(fn)};s.async=1;s.src=path;h.appendChild(s)}}
+  }(&apos;ProdPerfectKeen&apos;,&apos;https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js&apos;,this);
+
+  ProdPerfectKeen.ready(function () {
+    var client = new ProdPerfectKeen({
+      projectId: &quot;lXviifSA1NskA4wsG9N6WoWg&quot;,
+      writeKey: &quot;8RWMCGFX4X0IRY1GHWDM3HM5WDSJF9LP62BSDULOL3XK7WAIFGDB7EU526O1A0UPLH1S8SJP320LUXJKCHLJX1822GU1KFE80CNW6PXVZ83IOO6LJ731EN164IFVUFMC8DOGYP2MXHN47WGVB192F2PTQRQXCF95OJWAKGOH9S69DZAI5OPJW8QSPDE6LQQ9&quot;,
+      requestType: &quot;beacon&quot;,
+      host: &quot;blazemeter.datapipe.prodperfect.com/v1&quot;,
+    });
+    client.extendEvents({
+      visitor: {
+        user_id: null,
+      },
+    });
+
+    var options = {
+      ignoreDisabledFormFields: false,
+      recordClicks: true,
+      recordFormSubmits: true,
+      recordInputChanges: true,
+      recordPageViews: true,
+      recordPageUnloads: true,
+      recordScrollState: true,
+    };
+    client.initAutoTracking(options);
+  });
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">keen={%22uuid%22:%22fba656d0-b360-454a-86c7-c44896c44a7c%22%2C%22initialReferrer%22:%22https://www.google.com/%22}; prodperfect_session={%22session_uuid%22:%22377f45ac-8190-4cf6-aee9-a91763e2c876%22}</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">fromPort=Paris&amp;toPort=New+York</queryString>
+  <java.net.URL>https://blazedemo.com/reserve.php</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="870" it="0" lt="868" ct="242" ts="1709704751705" s="true" lb="T01_launchBlazedemoApplication-30" rc="200" rm="OK" tn="" dt="text" de="UTF-8" by="2362" sc="1" ec="0" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+x-powered-by: PHP/7.4.30
+cache-control: no-cache, private
+vary: Accept-Encoding
+content-type: text/html; charset=UTF-8
+X-Cloud-Trace-Context: 323c6bf288f65e0aaf6fd3b5c155c9c7
+Date: Wed, 06 Mar 2024 05:59:11 GMT
+Server: Google Frontend
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.5
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Host: blazedemo.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt; BlazeDemo&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;BlazeMeter demo app&quot;&gt;
+    &lt;meta name=&quot;sage&quot; content=&quot;flights app&quot;&gt;
+
+    &lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap-table.js&quot;&gt;&lt;/script&gt;
+    &lt;link href=&quot;/assets/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;link href=&quot;/assets/bootstrap-table.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+        body {
+            background: #f5f5f5);
+        }
+
+        .hero-unit {
+            background-color: #fff;
+        }
+
+        .center {
+            display: block;
+            margin: 0 auto;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+        &lt;div class=&quot;navbar navbar-inverse&quot;&gt;
+        &lt;div class=&quot;navbar-inner&quot;&gt;
+            &lt;div class=&quot;container&quot;&gt;
+                &lt;a class=&quot;btn btn-navbar&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.nav-collapse&quot;&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                &lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;index.php&quot;&gt;Travel The World&lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;home&quot;&gt;home&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;jumbotron&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;h1&gt;Welcome to the Simple Travel Agency!&lt;/h1&gt;
+            &lt;p&gt;The is a sample site you can test with BlazeMeter! &lt;/p&gt;
+            &lt;p&gt;Check out our &lt;a href=&quot;vacation.html&quot;&gt;destination of the week! The Beach!&lt;/a&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;div class=&quot;container&quot;&gt;
+        &lt;h2&gt;Choose your departure city:&lt;/h2&gt;
+    &lt;form action=&quot;reserve.php&quot; method=&quot;post&quot;&gt;
+        &lt;select name=&quot;fromPort&quot; class=&quot;form-inline&quot;&gt;
+            &lt;option value=&quot;Paris&quot;&gt;Paris&lt;/option&gt;
+            &lt;option value=&quot;Philadelphia&quot;&gt;Philadelphia&lt;/option&gt;
+            &lt;option value=&quot;Boston&quot;&gt;Boston&lt;/option&gt;
+            &lt;option value=&quot;Portland&quot;&gt;Portland&lt;/option&gt;
+            &lt;option value=&quot;San Diego&quot;&gt;San Diego&lt;/option&gt;
+            &lt;option value=&quot;Mexico City&quot;&gt;Mexico City&lt;/option&gt;
+            &lt;option value=&quot;São Paolo&quot;&gt;São Paolo&lt;/option&gt;
+        &lt;/select&gt;
+        &lt;p&gt;
+        &lt;h2&gt;Choose your destination city:&lt;/h2&gt;
+        &lt;select name=&quot;toPort&quot; class=&quot;form-inline&quot;&gt;
+            &lt;option value=&quot;Buenos Aires&quot;&gt;Buenos Aires&lt;/option&gt;
+            &lt;option value=&quot;Rome&quot;&gt;Rome&lt;/option&gt;
+            &lt;option value=&quot;London&quot;&gt;London&lt;/option&gt;
+            &lt;option value=&quot;Berlin&quot;&gt;Berlin&lt;/option&gt;
+            &lt;option value=&quot;New York&quot;&gt;New York&lt;/option&gt;
+            &lt;option value=&quot;Dublin&quot;&gt;Dublin&lt;/option&gt;
+            &lt;option value=&quot;Cairo&quot;&gt;Cairo&lt;/option&gt;
+        &lt;/select&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;input type=&quot;submit&quot; class=&quot;btn btn-primary&quot; value=&quot;Find Flights&quot;/&gt;
+        &lt;/div&gt;
+    &lt;/form&gt;
+&lt;/div&gt;
+
+&lt;!-- ProdPerfect script: last thing before the body closes --&gt;
+&lt;script&gt;
+!function(name,path,ctx){
+    var latest,prev=name!==&apos;Keen&apos;&amp;&amp;window.Keen?window.Keen:false;ctx[name]=ctx[name]||{ready:function(fn){var h=document.getElementsByTagName(&apos;head&apos;)[0],s=document.createElement(&apos;script&apos;),w=window,loaded;s.onload=s.onreadystatechange=function(){if((s.readyState&amp;&amp;!(/^c|loade/.test(s.readyState)))||loaded){return}s.onload=s.onreadystatechange=null;loaded=1;latest=w.Keen;if(prev){w.Keen=prev}else{try{delete w.Keen}catch(e){w.Keen=void 0}}ctx[name]=latest;ctx[name].ready(fn)};s.async=1;s.src=path;h.appendChild(s)}}
+  }(&apos;ProdPerfectKeen&apos;,&apos;https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js&apos;,this);
+
+  ProdPerfectKeen.ready(function () {
+    var client = new ProdPerfectKeen({
+      projectId: &quot;lXviifSA1NskA4wsG9N6WoWg&quot;,
+      writeKey: &quot;8RWMCGFX4X0IRY1GHWDM3HM5WDSJF9LP62BSDULOL3XK7WAIFGDB7EU526O1A0UPLH1S8SJP320LUXJKCHLJX1822GU1KFE80CNW6PXVZ83IOO6LJ731EN164IFVUFMC8DOGYP2MXHN47WGVB192F2PTQRQXCF95OJWAKGOH9S69DZAI5OPJW8QSPDE6LQQ9&quot;,
+      requestType: &quot;beacon&quot;,
+      host: &quot;blazemeter.datapipe.prodperfect.com/v1&quot;,
+    });
+    client.extendEvents({
+      visitor: {
+        user_id: null,
+      },
+    });
+
+    var options = {
+      ignoreDisabledFormFields: false,
+      recordClicks: true,
+      recordFormSubmits: true,
+      recordInputChanges: true,
+      recordPageViews: true,
+      recordPageUnloads: true,
+      recordScrollState: true,
+    };
+    client.initAutoTracking(options);
+  });
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">keen={%22uuid%22:%22fba656d0-b360-454a-86c7-c44896c44a7c%22%2C%22initialReferrer%22:%22https://www.google.com/%22}; prodperfect_session={%22session_uuid%22:%22377f45ac-8190-4cf6-aee9-a91763e2c876%22}</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://blazedemo.com/</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="incoming.telemetry.mozilla.org:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="incoming.telemetry.mozilla.org:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="incoming.telemetry.mozilla.org:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="5244" it="0" lt="5243" ct="229" ts="1709704779074" s="true" lb="T02_findFlights-47" rc="200" rm="OK" tn="" dt="text" de="UTF-8" by="2403" sc="1" ec="0" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+x-powered-by: PHP/7.4.30
+cache-control: no-cache, private
+vary: Accept-Encoding
+content-type: text/html; charset=UTF-8
+X-Cloud-Trace-Context: c49153c197011c0ffd2381ae0474fcfa
+Date: Wed, 06 Mar 2024 05:59:42 GMT
+Server: Google Frontend
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Referer: https://blazedemo.com/
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.5
+Origin: https://blazedemo.com
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Host: blazedemo.com
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+Sec-Fetch-Dest: document
+Content-Length: 30
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;BlazeDemo - reserve&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;BlazeMeter demo app&quot;&gt;
+    &lt;meta name=&quot;sage&quot; content=&quot;flights app&quot;&gt;
+
+    &lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap-table.js&quot;&gt;&lt;/script&gt;
+    &lt;link href=&quot;/assets/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;link href=&quot;/assets/bootstrap-table.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+        body {
+            background: #f5f5f5);
+        }
+
+        .hero-unit {
+            background-color: #fff;
+        }
+
+        .center {
+            display: block;
+            margin: 0 auto;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class=&quot;navbar navbar-inverse&quot;&gt;
+        &lt;div class=&quot;navbar-inner&quot;&gt;
+            &lt;div class=&quot;container&quot;&gt;
+                &lt;a class=&quot;btn btn-navbar&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.nav-collapse&quot;&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                &lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;index.php&quot;&gt;Travel The World&lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;home&quot;&gt;home&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;div class=&quot;container&quot;&gt;
+    
+        &lt;h3&gt;Flights from Paris to New York: &lt;/h3&gt;
+    &lt;table class=&quot;table&quot;&gt;
+        &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Choose&lt;/th&gt;
+            &lt;th&gt;Flight #&lt;/th&gt;
+            &lt;th&gt;Airline&lt;/th&gt;
+            &lt;th&gt;Departs: Paris&lt;/th&gt;
+            &lt;th&gt;Arrives: New York&lt;/th&gt;
+            &lt;th&gt;Price&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;form name=&quot;VA43&quot; method=&quot;post&quot; action=&quot;purchase.php&quot;&gt;
+                &lt;td&gt;&lt;input type=&quot;submit&quot; class=&quot;btn btn-small&quot; value=&quot;Choose This Flight&quot;&gt;&lt;/td&gt;
+                &lt;td&gt;43&lt;/td&gt;
+                &lt;td&gt;Virgin America&lt;/td&gt;
+                &lt;td&gt;1:43 AM&lt;/td&gt;
+                &lt;td&gt;9:45 PM&lt;/td&gt;
+                &lt;td&gt;$472.56&lt;/td&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;43&quot; name=&quot;flight&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;472.56&quot; name=&quot;price&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;Virgin America&quot; name=&quot;airline&quot;&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;fromPort&quot; value=&quot;Paris&quot;/&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;toPort&quot; value=&quot;New York&quot;/&gt;
+            &lt;/form&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;form name=&quot;UA234&quot; method=&quot;post&quot; action=&quot;purchase.php&quot;&gt;
+                &lt;td&gt;&lt;input type=&quot;submit&quot; class=&quot;btn btn-small&quot; value=&quot;Choose This Flight&quot;&gt;&lt;/td&gt;
+                &lt;td&gt;234&lt;/td&gt;
+                &lt;td&gt;United Airlines&lt;/td&gt;
+                &lt;td&gt;7:43 AM&lt;/td&gt;
+                &lt;td&gt;10:45 PM&lt;/td&gt;
+                &lt;td&gt;$432.98&lt;/td&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;234&quot; name=&quot;flight&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;432.98&quot; name=&quot;price&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;United Airlines&quot; name=&quot;airline&quot;&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;fromPort&quot; value=&quot;Paris&quot;/&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;toPort&quot; value=&quot;New York&quot;/&gt;
+            &lt;/form&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;form name=&quot;AL969&quot; method=&quot;post&quot; action=&quot;purchase.php&quot;&gt;
+                &lt;td&gt;&lt;input type=&quot;submit&quot; class=&quot;btn btn-small&quot; value=&quot;Choose This Flight&quot;&gt;&lt;/td&gt;
+                &lt;td&gt;9696&lt;/td&gt;
+                &lt;td&gt;Aer Lingus&lt;/td&gt;
+                &lt;td&gt;5:27 AM&lt;/td&gt;
+                &lt;td&gt;8:22 PM&lt;/td&gt;
+                &lt;td&gt;$200.98&lt;/td&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;9696&quot; name=&quot;flight&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;200.98&quot; name=&quot;price&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;Aer Lingus&quot; name=&quot;airline&quot;&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;fromPort&quot; value=&quot;Paris&quot;/&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;toPort&quot; value=&quot;New York&quot;/&gt;
+            &lt;/form&gt;
+
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;form name=&quot;VA12&quot; method=&quot;post&quot; action=&quot;purchase.php&quot;&gt;
+                &lt;td&gt;&lt;input type=&quot;submit&quot; class=&quot;btn btn-small&quot; value=&quot;Choose This Flight&quot;&gt;&lt;/td&gt;
+                &lt;td&gt;12&lt;/td&gt;
+                &lt;td&gt;Virgin America&lt;/td&gt;
+                &lt;td&gt;11:23 AM&lt;/td&gt;
+                &lt;td&gt;1:45 PM&lt;/td&gt;
+                &lt;td&gt;$765.32&lt;/td&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;12&quot; name=&quot;flight&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;765.32&quot; name=&quot;price&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;Virgin America&quot; name=&quot;airline&quot;&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;fromPort&quot; value=&quot;Paris&quot;/&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;toPort&quot; value=&quot;New York&quot;/&gt;
+            &lt;/form&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;form name=&quot;L4346&quot; method=&quot;post&quot; action=&quot;purchase.php&quot;&gt;
+                &lt;td&gt;&lt;input type=&quot;submit&quot; class=&quot;btn btn-small&quot; value=&quot;Choose This Flight&quot;&gt;&lt;/td&gt;
+                &lt;td&gt;4346&lt;/td&gt;
+                &lt;td&gt;Lufthansa&lt;/td&gt;
+                &lt;td&gt;1:45 AM&lt;/td&gt;
+                &lt;td&gt;8:34 PM&lt;/td&gt;
+                &lt;td&gt;$233.98&lt;/td&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;4346&quot; name=&quot;flight&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;233.98&quot; name=&quot;price&quot;&gt;
+                &lt;input type=&quot;hidden&quot; value=&quot;Lufthansa&quot; name=&quot;airline&quot;&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;fromPort&quot; value=&quot;Paris&quot;/&gt;
+                &lt;input type=&quot;hidden&quot; name=&quot;toPort&quot; value=&quot;New York&quot;/&gt;
+            &lt;/form&gt;
+        &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;fromPort&quot; value=&quot;Paris&quot;/&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;toPort&quot; value=&quot;New York&quot;/&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- ProdPerfect script: last thing before the body closes --&gt;
+&lt;script&gt;
+!function(name,path,ctx){
+    var latest,prev=name!==&apos;Keen&apos;&amp;&amp;window.Keen?window.Keen:false;ctx[name]=ctx[name]||{ready:function(fn){var h=document.getElementsByTagName(&apos;head&apos;)[0],s=document.createElement(&apos;script&apos;),w=window,loaded;s.onload=s.onreadystatechange=function(){if((s.readyState&amp;&amp;!(/^c|loade/.test(s.readyState)))||loaded){return}s.onload=s.onreadystatechange=null;loaded=1;latest=w.Keen;if(prev){w.Keen=prev}else{try{delete w.Keen}catch(e){w.Keen=void 0}}ctx[name]=latest;ctx[name].ready(fn)};s.async=1;s.src=path;h.appendChild(s)}}
+  }(&apos;ProdPerfectKeen&apos;,&apos;https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js&apos;,this);
+
+  ProdPerfectKeen.ready(function () {
+    var client = new ProdPerfectKeen({
+      projectId: &quot;lXviifSA1NskA4wsG9N6WoWg&quot;,
+      writeKey: &quot;8RWMCGFX4X0IRY1GHWDM3HM5WDSJF9LP62BSDULOL3XK7WAIFGDB7EU526O1A0UPLH1S8SJP320LUXJKCHLJX1822GU1KFE80CNW6PXVZ83IOO6LJ731EN164IFVUFMC8DOGYP2MXHN47WGVB192F2PTQRQXCF95OJWAKGOH9S69DZAI5OPJW8QSPDE6LQQ9&quot;,
+      requestType: &quot;beacon&quot;,
+      host: &quot;blazemeter.datapipe.prodperfect.com/v1&quot;,
+    });
+    client.extendEvents({
+      visitor: {
+        user_id: null,
+      },
+    });
+
+    var options = {
+      ignoreDisabledFormFields: false,
+      recordClicks: true,
+      recordFormSubmits: true,
+      recordInputChanges: true,
+      recordPageViews: true,
+      recordPageUnloads: true,
+      recordScrollState: true,
+    };
+    client.initAutoTracking(options);
+  });
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">keen={%22uuid%22:%22fba656d0-b360-454a-86c7-c44896c44a7c%22%2C%22initialReferrer%22:%22https://www.google.com/%22}; prodperfect_session={%22session_uuid%22:%22377f45ac-8190-4cf6-aee9-a91763e2c876%22}</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">fromPort=Paris&amp;toPort=New+York</queryString>
+  <java.net.URL>https://blazedemo.com/reserve.php</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="push.services.mozilla.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT push.services.mozilla.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="746" it="0" lt="740" ct="243" ts="1709704820770" s="true" lb="T03_chooseFlight-57" rc="200" rm="OK" tn="" dt="text" de="UTF-8" by="2464" sc="1" ec="0" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+x-powered-by: PHP/7.4.30
+cache-control: no-cache, private
+vary: Accept-Encoding
+content-type: text/html; charset=UTF-8
+X-Cloud-Trace-Context: 865e459bd6ab98f1190eaef0dc3a0a99
+Date: Wed, 06 Mar 2024 06:00:20 GMT
+Server: Google Frontend
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Referer: https://blazedemo.com/reserve.php
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.5
+Origin: https://blazedemo.com
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Host: blazedemo.com
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+Sec-Fetch-Dest: document
+Content-Length: 76
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;BlazeDemo Purchase&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;BlazeMeter demo app&quot;&gt;
+    &lt;meta name=&quot;sage&quot; content=&quot;flights app&quot;&gt;
+
+    &lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap-table.js&quot;&gt;&lt;/script&gt;
+    &lt;link href=&quot;/assets/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;link href=&quot;/assets/bootstrap-table.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+        body {
+            background: #f5f5f5);
+        }
+
+        .hero-unit {
+            background-color: #fff;
+        }
+
+        .center {
+            display: block;
+            margin: 0 auto;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class=&quot;navbar navbar-inverse&quot;&gt;
+        &lt;div class=&quot;navbar-inner&quot;&gt;
+            &lt;div class=&quot;container&quot;&gt;
+                &lt;a class=&quot;btn btn-navbar&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.nav-collapse&quot;&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                &lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;index.php&quot;&gt;Travel The World&lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;home&quot;&gt;home&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;div class=&quot;container&quot;&gt;
+            &lt;h2&gt;Your flight from TLV to SFO has been reserved.&lt;/h2&gt;
+    &lt;p&gt;Airline: United&lt;/p&gt;
+    &lt;p&gt;Flight Number: UA954&lt;/p&gt;
+    &lt;p&gt;Price: 400&lt;/p&gt;
+    &lt;p&gt;Arbitrary Fees and Taxes: 514.76&lt;/p&gt;
+    &lt;hr&gt;&lt;/hr&gt;
+    &lt;p&gt;Total Cost: &lt;em&gt;914.76 &lt;/em&gt;&lt;/p&gt;
+    &lt;p&gt;Please submit the form below to purchase the flight.&lt;/p&gt;
+
+    &lt;form method=&quot;POST&quot; action=&quot;https://blazedemo.com/confirmation.php&quot; accept-charset=&quot;UTF-8&quot;&gt;&lt;input name=&quot;_token&quot; type=&quot;hidden&quot;&gt;
+    &lt;div class=&quot;control-group&quot;&gt;
+        &lt;label class=&quot;control-label&quot; for=&quot;inputName&quot;&gt;Name&lt;/label&gt;
+        &lt;div class=&quot;controls&quot;&gt;
+            &lt;input id=&quot;inputName&quot; placeholder=&quot;First Last&quot; name=&quot;inputName&quot; type=&quot;text&quot;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;control-group&quot;&gt;
+        &lt;label class=&quot;control-label&quot; for=&quot;address&quot;&gt;Address&lt;/label&gt;
+        &lt;div class=&quot;controls&quot;&gt;
+            &lt;input type=&quot;text&quot; name=&quot;address&quot; id=&quot;address&quot; placeholder=&quot;123 Main St.&quot;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;control-group&quot;&gt;
+        &lt;label class=&quot;control-label&quot; for=&quot;city&quot;&gt;City&lt;/label&gt;
+        &lt;div class=&quot;controls&quot;&gt;
+            &lt;input type=&quot;text&quot; name=&quot;city&quot; id=&quot;city&quot; placeholder=&quot;Anytown&quot;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;control-group&quot;&gt;
+        &lt;label class=&quot;control-label&quot; for=&quot;state&quot;&gt;State&lt;/label&gt;
+        &lt;div class=&quot;controls&quot;&gt;
+            &lt;input type=&quot;text&quot; name=&quot;state&quot; id=&quot;state&quot; placeholder=&quot;State&quot;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;control-group&quot;&gt;
+        &lt;label class=&quot;control-label&quot; for=&quot;zipCode&quot;&gt;Zip Code&lt;/label&gt;
+        &lt;div class=&quot;controls&quot;&gt;
+            &lt;input type=&quot;text&quot; name=&quot;zipCode&quot; id=&quot;zipCode&quot; placeholder=&quot;12345&quot;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;control-group&quot;&gt;
+        &lt;label class=&quot;control-label&quot; for=&quot;creditCardType&quot;&gt;Card Type&lt;/label&gt;
+        &lt;div class=&quot;controls&quot;&gt;
+            &lt;select class=&quot;form-inline&quot; name=&quot;cardType&quot; id=&quot;cardType&quot;&gt;
+                &lt;option value=&quot;visa&quot;&gt;Visa&lt;/option&gt;
+                &lt;option value=&quot;amex&quot;&gt;American Express&lt;/option&gt;
+                &lt;option value=&quot;dinersclub&quot;&gt;Diner&apos;s Club&lt;/option&gt;
+            &lt;/select&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;control-group&quot;&gt;
+        &lt;label class=&quot;control-label&quot; for=&quot;creditCardNumber&quot;&gt;Credit Card Number&lt;/label&gt;
+        &lt;div class=&quot;controls&quot;&gt;
+            &lt;input type=&quot;text&quot; id=&quot;creditCardNumber&quot; name=&quot;creditCardNumber&quot; placeholder=&quot;Credit Card Number&quot;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;control-group&quot;&gt;
+        &lt;label class=&quot;control-label&quot; for=&quot;creditCardMonth&quot;&gt;Month&lt;/label&gt;
+        &lt;div class=&quot;controls&quot;&gt;
+            &lt;input type=&quot;text&quot; id=&quot;creditCardMonth&quot; name=&quot;creditCardMonth&quot; placeholder=&quot;Month&quot; value=&quot;11&quot;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;control-group&quot;&gt;
+        &lt;label class=&quot;control-label&quot; for=&quot;creditCardYear&quot;&gt;Year&lt;/label&gt;
+        &lt;div class=&quot;controls&quot;&gt;
+            &lt;input type=&quot;text&quot; id=&quot;creditCardYear&quot; name=&quot;creditCardYear&quot; placeholder=&quot;Year&quot; value=&quot;2017&quot;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;control-group&quot;&gt;
+        &lt;label class=&quot;control-label&quot; for=&quot;nameOnCard&quot;&gt;Name on Card&lt;/label&gt;
+        &lt;div class=&quot;controls&quot;&gt;
+            &lt;input type=&quot;text&quot; id=&quot;nameOnCard&quot; placeholder=&quot;John Smith&quot; name=&quot;nameOnCard&quot;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+
+    &lt;div class=&quot;control-group&quot;&gt;
+        &lt;div class=&quot;controls&quot;&gt;
+            &lt;label class=&quot;checkbox&quot;&gt;
+                &lt;input type=&quot;checkbox&quot; name=&quot;rememberMe&quot; id=&quot;rememberMe&quot;&gt; Remember me
+            &lt;/label&gt;
+            &lt;input class=&quot;btn btn-primary&quot; type=&quot;submit&quot; value=&quot;Purchase Flight&quot;&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/form&gt;
+    
+&lt;/div&gt;
+
+&lt;!-- ProdPerfect script: last thing before the body closes --&gt;
+&lt;script&gt;
+!function(name,path,ctx){
+    var latest,prev=name!==&apos;Keen&apos;&amp;&amp;window.Keen?window.Keen:false;ctx[name]=ctx[name]||{ready:function(fn){var h=document.getElementsByTagName(&apos;head&apos;)[0],s=document.createElement(&apos;script&apos;),w=window,loaded;s.onload=s.onreadystatechange=function(){if((s.readyState&amp;&amp;!(/^c|loade/.test(s.readyState)))||loaded){return}s.onload=s.onreadystatechange=null;loaded=1;latest=w.Keen;if(prev){w.Keen=prev}else{try{delete w.Keen}catch(e){w.Keen=void 0}}ctx[name]=latest;ctx[name].ready(fn)};s.async=1;s.src=path;h.appendChild(s)}}
+  }(&apos;ProdPerfectKeen&apos;,&apos;https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js&apos;,this);
+
+  ProdPerfectKeen.ready(function () {
+    var client = new ProdPerfectKeen({
+      projectId: &quot;lXviifSA1NskA4wsG9N6WoWg&quot;,
+      writeKey: &quot;8RWMCGFX4X0IRY1GHWDM3HM5WDSJF9LP62BSDULOL3XK7WAIFGDB7EU526O1A0UPLH1S8SJP320LUXJKCHLJX1822GU1KFE80CNW6PXVZ83IOO6LJ731EN164IFVUFMC8DOGYP2MXHN47WGVB192F2PTQRQXCF95OJWAKGOH9S69DZAI5OPJW8QSPDE6LQQ9&quot;,
+      requestType: &quot;beacon&quot;,
+      host: &quot;blazemeter.datapipe.prodperfect.com/v1&quot;,
+    });
+    client.extendEvents({
+      visitor: {
+        user_id: null,
+      },
+    });
+
+    var options = {
+      ignoreDisabledFormFields: false,
+      recordClicks: true,
+      recordFormSubmits: true,
+      recordInputChanges: true,
+      recordPageViews: true,
+      recordPageUnloads: true,
+      recordScrollState: true,
+    };
+    client.initAutoTracking(options);
+  });
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">keen={%22uuid%22:%22fba656d0-b360-454a-86c7-c44896c44a7c%22%2C%22initialReferrer%22:%22https://www.google.com/%22}; prodperfect_session={%22session_uuid%22:%22377f45ac-8190-4cf6-aee9-a91763e2c876%22}</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">flight=12&amp;price=765.32&amp;airline=Virgin+America&amp;fromPort=Paris&amp;toPort=New+York</queryString>
+  <java.net.URL>https://blazedemo.com/purchase.php</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="747" it="0" lt="746" ct="245" ts="1709704878438" s="true" lb="T04_enterDetailsAndPurchaseFlight-88" rc="200" rm="OK" tn="" dt="text" de="UTF-8" by="2510" sc="1" ec="0" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+x-powered-by: PHP/7.4.30
+cache-control: no-cache, private
+vary: Accept-Encoding
+content-type: text/html; charset=UTF-8
+X-Cloud-Trace-Context: c736f613f5ec116679db670485fba083
+Date: Wed, 06 Mar 2024 06:01:18 GMT
+Server: Google Frontend
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Referer: https://blazedemo.com/purchase.php
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.5
+Origin: https://blazedemo.com
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Host: blazedemo.com
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+Sec-Fetch-Dest: document
+Content-Length: 191
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;BlazeDemo Confirmation&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;BlazeMeter demo app&quot;&gt;
+    &lt;meta name=&quot;sage&quot; content=&quot;flights app&quot;&gt;
+
+    &lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/assets/bootstrap-table.js&quot;&gt;&lt;/script&gt;
+    &lt;link href=&quot;/assets/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;link href=&quot;/assets/bootstrap-table.css&quot; rel=&quot;stylesheet&quot; media=&quot;screen&quot;&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+        body {
+            background: #f5f5f5);
+        }
+
+        .hero-unit {
+            background-color: #fff;
+        }
+
+        .center {
+            display: block;
+            margin: 0 auto;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class=&quot;navbar navbar-inverse&quot;&gt;
+        &lt;div class=&quot;navbar-inner&quot;&gt;
+            &lt;div class=&quot;container&quot;&gt;
+                &lt;a class=&quot;btn btn-navbar&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.nav-collapse&quot;&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+                &lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;index.php&quot;&gt;Travel The World&lt;/a&gt;
+                &lt;a class=&quot;brand&quot; href=&quot;home&quot;&gt;home&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;container hero-unit&quot;&gt;
+        &lt;h1&gt;Thank you for your purchase today!&lt;/h1&gt;
+        &lt;table class=&quot;table&quot;&gt;
+            &lt;thead&gt;
+            &lt;tr&gt;
+                &lt;th&gt;&amp;nbsp;&lt;/th&gt;
+                &lt;th&gt;&amp;nbsp;&lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;/thead&gt;
+            &lt;tbody&gt;
+                            &lt;tr&gt;
+                    &lt;td&gt;Id&lt;/td&gt;
+                    &lt;td&gt;1709704878681&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;Status&lt;/td&gt;
+                    &lt;td&gt;PendingCapture&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;Amount&lt;/td&gt;
+                    &lt;td&gt;555 USD&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;Card Number&lt;/td&gt;
+                    &lt;td&gt;xxxxxxxxxxxx1111&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;Expiration&lt;/td&gt;
+                    &lt;td&gt;11
+                        /2018&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;Auth Code&lt;/td&gt;
+                    &lt;td&gt;888888&lt;/td&gt;
+                &lt;/tr&gt;
+                                    &lt;tr&gt;
+                &lt;td&gt;Date&lt;/td&gt;
+                &lt;td&gt;Wed, 06 Mar 2024 06:01:18 +0000&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+        &lt;br/&gt;
+        &lt;pre&gt;
+{
+    &amp;quot;id&amp;quot;: &amp;quot;1709704878681&amp;quot;,
+    &amp;quot;status&amp;quot;: &amp;quot;PendingCapture&amp;quot;,
+    &amp;quot;amount&amp;quot;: &amp;quot;555&amp;quot;,
+    &amp;quot;currency&amp;quot;: &amp;quot;USD&amp;quot;,
+    &amp;quot;authCode&amp;quot;: &amp;quot;888888&amp;quot;,
+    &amp;quot;payment&amp;quot;: {
+        &amp;quot;cardNumber&amp;quot;: &amp;quot;xxxxxxxxxxxx1111&amp;quot;,
+        &amp;quot;cardExpirationMonth&amp;quot;: &amp;quot;11&amp;quot;,
+        &amp;quot;cardExpirationYear&amp;quot;: &amp;quot;2018&amp;quot;
+    },
+    &amp;quot;_links&amp;quot;: {
+        &amp;quot;self&amp;quot;: {
+            &amp;quot;href&amp;quot;: &amp;quot;https=&amp;gt;\/\/sandbox.api.visa.com\/cybersource\/payments\/v1\/authorizations\/1709704878681&amp;quot;,
+            &amp;quot;method&amp;quot;: &amp;quot;GET&amp;quot;
+        },
+        &amp;quot;capture&amp;quot;: [
+            {
+                &amp;quot;href&amp;quot;: &amp;quot;https=&amp;gt;\/\/sandbox.api.visa.com\/cybersource\/payments\/v1\/authorizations\/1709704878681\/captures&amp;quot;,
+                &amp;quot;method&amp;quot;: &amp;quot;POST&amp;quot;
+            }
+        ],
+        &amp;quot;reversal&amp;quot;: [
+            {
+                &amp;quot;href&amp;quot;: &amp;quot;https=&amp;gt;\/\/sandbox.api.visa.com\/cybersource\/payments\/v1\/authorizations\/1709704878681\/reversals&amp;quot;,
+                &amp;quot;method&amp;quot;: &amp;quot;POST&amp;quot;
+            }
+        ]
+    }
+}
+&lt;/pre&gt;
+        &lt;br/&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- ProdPerfect script: last thing before the body closes --&gt;
+&lt;script&gt;
+!function(name,path,ctx){
+    var latest,prev=name!==&apos;Keen&apos;&amp;&amp;window.Keen?window.Keen:false;ctx[name]=ctx[name]||{ready:function(fn){var h=document.getElementsByTagName(&apos;head&apos;)[0],s=document.createElement(&apos;script&apos;),w=window,loaded;s.onload=s.onreadystatechange=function(){if((s.readyState&amp;&amp;!(/^c|loade/.test(s.readyState)))||loaded){return}s.onload=s.onreadystatechange=null;loaded=1;latest=w.Keen;if(prev){w.Keen=prev}else{try{delete w.Keen}catch(e){w.Keen=void 0}}ctx[name]=latest;ctx[name].ready(fn)};s.async=1;s.src=path;h.appendChild(s)}}
+  }(&apos;ProdPerfectKeen&apos;,&apos;https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js&apos;,this);
+
+  ProdPerfectKeen.ready(function () {
+    var client = new ProdPerfectKeen({
+      projectId: &quot;lXviifSA1NskA4wsG9N6WoWg&quot;,
+      writeKey: &quot;8RWMCGFX4X0IRY1GHWDM3HM5WDSJF9LP62BSDULOL3XK7WAIFGDB7EU526O1A0UPLH1S8SJP320LUXJKCHLJX1822GU1KFE80CNW6PXVZ83IOO6LJ731EN164IFVUFMC8DOGYP2MXHN47WGVB192F2PTQRQXCF95OJWAKGOH9S69DZAI5OPJW8QSPDE6LQQ9&quot;,
+      requestType: &quot;beacon&quot;,
+      host: &quot;blazemeter.datapipe.prodperfect.com/v1&quot;,
+    });
+    client.extendEvents({
+      visitor: {
+        user_id: null,
+      },
+    });
+
+    var options = {
+      ignoreDisabledFormFields: false,
+      recordClicks: true,
+      recordFormSubmits: true,
+      recordInputChanges: true,
+      recordPageViews: true,
+      recordPageUnloads: true,
+      recordScrollState: true,
+    };
+    client.initAutoTracking(options);
+  });
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">keen={%22uuid%22:%22fba656d0-b360-454a-86c7-c44896c44a7c%22%2C%22initialReferrer%22:%22https://www.google.com/%22}; prodperfect_session={%22session_uuid%22:%22377f45ac-8190-4cf6-aee9-a91763e2c876%22}</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">_token=&amp;inputName=Harry+Potter&amp;address=Hogwarts&amp;city=Hogsmeade&amp;state=Scotland&amp;zipCode=12345&amp;cardType=visa&amp;creditCardNumber=12345&amp;creditCardMonth=11&amp;creditCardYear=2017&amp;nameOnCard=Harry+Potter</queryString>
+  <java.net.URL>https://blazedemo.com/confirmation.php</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="blazemeter.datapipe.prodperfect.com:443" rc="" rm="Received fatal alert: bad_certificate&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1368" sc="1" ec="1" ng="0" na="0" hn="EPINHYDW0CD2">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT blazemeter.datapipe.prodperfect.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+
+</testResults>
