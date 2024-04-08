@@ -12,7 +12,7 @@
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Products">
         <stringProp name="delimiter">,</stringProp>
         <stringProp name="fileEncoding"></stringProp>
-        <stringProp name="filename">D:\Learning\Learning-Performance-Testing\TestDataFiles\PTE-JMeter-Task\PTEJMeterTaskProducts.csv</stringProp>
+        <stringProp name="filename">D:/Learning/Learning-JMeter/TestDataFiles/PTE-JMeter-Task/PTEJMeterTaskProducts.csv</stringProp>
         <boolProp name="ignoreFirstLine">true</boolProp>
         <boolProp name="quotedData">false</boolProp>
         <boolProp name="recycle">true</boolProp>
@@ -22,7 +22,7 @@
       </CSVDataSet>
       <hashTree/>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Personal Details" enabled="true">
-        <stringProp name="filename">D:\Learning\Learning-Performance-Testing\TestDataFiles\PTE-JMeter-Task\PTEJMeterTaskPersonalDetails.csv</stringProp>
+        <stringProp name="filename">D:/Learning/Learning-JMeter/TestDataFiles/PTE-JMeter-Task/PTEJMeterTaskPersonalDetails.csv</stringProp>
         <stringProp name="fileEncoding"></stringProp>
         <stringProp name="variableNames">p_company,p_name,p_address,p_postalCode,p_city,p_country,p_state,p_phone,p_email,p_comment</stringProp>
         <boolProp name="ignoreFirstLine">true</boolProp>
@@ -49,12 +49,12 @@
       </CookieManager>
       <hashTree/>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group">
-        <intProp name="ThreadGroup.num_threads">5</intProp>
-        <intProp name="ThreadGroup.ramp_time">25</intProp>
+        <intProp name="ThreadGroup.num_threads">10</intProp>
+        <intProp name="ThreadGroup.ramp_time">1</intProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
-          <stringProp name="LoopController.loops">5</stringProp>
+          <stringProp name="LoopController.loops">1</stringProp>
           <boolProp name="LoopController.continue_forever">false</boolProp>
         </elementProp>
       </ThreadGroup>
@@ -100,7 +100,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="S01_JMT_T02_NavigateToTables">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="S01_JMT_T02_NavigateToTables" enabled="true">
             <stringProp name="HTTPSampler.port">0</stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
             <stringProp name="HTTPSampler.path">/tables</stringProp>
@@ -321,7 +321,7 @@
             </ResponseAssertion>
             <hashTree/>
           </hashTree>
-          <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="S01_JMT_T05_AddChairToCart" enabled="true">
+          <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="S01_JMT_T05_AddChairToCart">
             <intProp name="ThroughputController.style">1</intProp>
             <boolProp name="ThroughputController.perThread">false</boolProp>
             <intProp name="ThroughputController.maxThroughput">1</intProp>
@@ -332,7 +332,7 @@
             </FloatProperty>
           </ThroughputController>
           <hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="S01_JMT_T05_STEP01_NavigateToChairs">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="S01_JMT_T05_STEP01_NavigateToChairs" enabled="true">
               <stringProp name="HTTPSampler.port">0</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/chairs</stringProp>
@@ -554,7 +554,7 @@
               <hashTree/>
             </hashTree>
           </hashTree>
-          <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="S01_JMT_T06_PurchaseAddedProducts" enabled="true">
+          <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="S01_JMT_T06_PurchaseAddedProducts">
             <intProp name="ThroughputController.style">1</intProp>
             <boolProp name="ThroughputController.perThread">false</boolProp>
             <intProp name="ThroughputController.maxThroughput">1</intProp>
@@ -643,7 +643,7 @@
               </UniformRandomTimer>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="S01_JMT_T06_STEP02_PlaceAnOrder">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="S01_JMT_T06_STEP02_PlaceAnOrder" enabled="true">
               <stringProp name="HTTPSampler.port">0</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/checkout</stringProp>
@@ -750,7 +750,7 @@
                 </collectionProp>
               </HeaderManager>
               <hashTree/>
-              <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="c_countryCode Extractor">
+              <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="c_countryCode Extractor" enabled="true">
                 <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                 <stringProp name="RegexExtractor.refname">c_countryCode</stringProp>
                 <stringProp name="RegexExtractor.regex">&lt;option value=&quot;[A-Z]{2}&quot; &gt;${p_country} - (.*?)&lt;/option&gt;</stringProp>
@@ -761,7 +761,7 @@
               </RegexExtractor>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="S01_JMT_T06_STEP03_SelectACountry">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="S01_JMT_T06_STEP03_SelectACountry" enabled="true">
               <stringProp name="HTTPSampler.port">0</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
               <stringProp name="HTTPSampler.path">/wp-admin/admin-ajax.php</stringProp>
@@ -841,7 +841,7 @@
               </JSONPostProcessor>
               <hashTree/>
             </hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="S01_JMT_T06_STEP04_EnterDetailsAndPlaceOrder">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="S01_JMT_T06_STEP04_EnterDetailsAndPlaceOrder" enabled="true">
               <stringProp name="TestPlan.comments">Detected the start of a redirect chain</stringProp>
               <stringProp name="HTTPSampler.port">0</stringProp>
               <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
@@ -1115,7 +1115,7 @@
                 </collectionProp>
               </HeaderManager>
               <hashTree/>
-              <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Entering Details TImer" enabled="true">
+              <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Entering Details Timer" enabled="true">
                 <stringProp name="ConstantTimer.delay">20000</stringProp>
                 <stringProp name="RandomTimer.range">10000</stringProp>
               </UniformRandomTimer>
@@ -1168,7 +1168,7 @@
           <hashTree/>
         </hashTree>
       </hashTree>
-      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="false">
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -1203,7 +1203,7 @@
         <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
-      <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="false">
+      <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
