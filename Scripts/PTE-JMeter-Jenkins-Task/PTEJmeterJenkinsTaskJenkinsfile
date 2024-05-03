@@ -1,0 +1,32 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main', 
+                url: 'https://github.com/Sairam2112002/Learning-JMeter.git'
+            }
+        }
+    
+        stage('Run JMeter tests') {
+            steps {
+                bat """
+                    jmeter -n -t"Scripts/PTE-JMeter-Jenkins-Task/PTEJMeterJenkinsTask.jmx" -l"Results/results_${env.BUILD_NUMBER}.jtl" -e -o"Results/HTMLReport_${env.BUILD_NUMBER}"
+                """
+            }
+        }
+        
+        stage('Archive Results') {
+            steps {
+                archiveArtifacts artifacts: """Results/results_${env.BUILD_NUMBER}.jtl"""
+            }
+        }
+    
+        stage('Archive HTML Report') {
+            steps {
+                archiveArtifacts artifacts: """Results/HTMLReport_${env.BUILD_NUMBER}/**"""
+            }
+        }
+    }
+}
